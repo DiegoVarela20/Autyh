@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|c:\\users\\purpl\\desktop\\7.persistence-blog\\ludanortmun cetys-icc-hetplat main 7.persistence-blog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|c:\\users\\purpl\\desktop\\7.persistence-blog\\ludanortmun cetys-icc-hetplat main 7.persistence-blog\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|c:\\users\\purpl\\desktop\\7.persistence-blog\\ludanortmun cetys-icc-hetplat main 7.persistence-blog\\views\\auth\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|solutionrelative:views\\auth\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|c:\\users\\purpl\\desktop\\7.persistence-blog\\ludanortmun cetys-icc-hetplat main 7.persistence-blog\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|c:\\users\\purpl\\desktop\\7.persistence-blog\\ludanortmun cetys-icc-hetplat main 7.persistence-blog\\blog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{60064FE7-9B32-4E56-9ED9-90CD3CCD214C}|Blog.csproj|solutionrelative:blog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T06:36:31.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Views\\Auth\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Views\\Auth\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T06:35:19.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T06:35:17.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T06:35:09.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Blog",
+              "DocumentMoniker": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Blog.csproj",
+              "RelativeDocumentMoniker": "Blog.csproj",
+              "ToolTip": "C:\\Users\\purpl\\Desktop\\7.Persistence-Blog\\ludanortmun cetys-icc-hetplat main 7.Persistence-Blog\\Blog.csproj",
+              "RelativeToolTip": "Blog.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-31T06:31:38.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

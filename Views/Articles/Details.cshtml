@@ -1,0 +1,51 @@
+﻿@model Blog.Models.ArticleDetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h2>@Model.Article.Title</h2>
+    <p><strong>Author:</strong> @Model.Article.AuthorName (@Model.Article.AuthorEmail)</p>
+    <p><strong>Published:</strong> @Model.Article.PublishedDate.ToString("dd/MM/yyyy HH:mm")</p>
+    <hr />
+    <p>@Model.Article.Content</p>
+</div>
+
+<hr />
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+<h2>Comments</h2>
+
+<form action="/Articles/@Model.Article.Id/AddComment" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group mb-3">
+        <label for="Content">Add a comment:</label>
+        <textarea name="Content" class="form-control" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Post Comment</button>
+</form>
+
+<br />
+
+@if (Model.Comments != null && Model.Comments.Any())
+{
+    foreach (var comment in Model.Comments)
+    {
+<div class="card mb-2">
+    <div class="card-body">
+        <p>@comment.Content</p>
+        <small class="text-muted">Posted: @comment.PublishedDate.ToString("dd/MM/yyyy HH:mm")</small>
+    </div>
+</div>
+    }
+}
+else
+{
+<p>No comments yet.</p>
+}

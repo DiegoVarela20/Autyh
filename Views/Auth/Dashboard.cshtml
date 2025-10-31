@@ -1,0 +1,67 @@
+﻿@model Blog.Models.User
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">Welcome, @Model.Name! </h2>
+                </div>
+                <div class="card-body">
+                   
+
+                    <h4 class="mt-4 mb-3">Your Profile Information</h4>
+
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <td class="fw-bold" style="width: 30%;">Username:</td>
+                                <td>@Model.Username</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Full Name:</td>
+                                <td>@Model.Name</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Email:</td>
+                                <td>@Model.Email</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Date of Birth:</td>
+                                <td>@Model.DateOfBirth.ToString("MMMM dd, yyyy")</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Member Since:</td>
+                                <td>@Model.CreatedAt.ToString("MMMM dd, yyyy")</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <hr class="my-4">
+
+                    <h4 class="mb-3">Quick Actions</h4>
+                    <div class="d-grid gap-2 d-md-flex">
+                        <a class="btn btn-success" asp-controller="Articles" asp-action="Create">
+                             Create New Article
+                        </a>
+                        <a class="btn btn-primary" asp-controller="Articles" asp-action="Index">
+                             Browse Articles
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <form method="post" asp-controller="Auth" asp-action="Logout" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger">
+                             Logout
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

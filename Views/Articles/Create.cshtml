@@ -1,0 +1,46 @@
+﻿@model Blog.Models.Article
+
+@{
+    ViewData["Title"] = "Create Article";
+}
+
+<h1>Create Article</h1>
+
+<hr />
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Title" class="form-label">Title</label>
+        <input asp-for="Title" class="form-control" maxlength="100" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="AuthorName" class="form-label">Author Name</label>
+        <input asp-for="AuthorName" class="form-control" />
+        <span asp-validation-for="AuthorName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="AuthorEmail" class="form-label">Author Email</label>
+        <input asp-for="AuthorEmail" type="email" class="form-control" />
+        <span asp-validation-for="AuthorEmail" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Content" class="form-label">Content</label>
+        <textarea asp-for="Content" class="form-control" rows="10"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
